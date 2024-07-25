@@ -1,0 +1,66 @@
+.main__topic {
+  margin: 0;
+  width: 830px;
+  height: 173.92px;
+  margin-left: 148px;
+  margin-right: 302px;
+  padding-bottom: 39.98px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+}
+
+.main__text {
+  margin: 0;
+  width: 738px;
+  height: 135.66px;
+  margin-left: 148px;
+  padding-bottom: 10px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+
+.main__author {
+  margin: 0;
+  width: 732px;
+  height: 33.91px;
+  margin-left: 148px;
+  padding-bottom: 31.99px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+
+.main__text-description {
+  margin: 0;
+  width: 722px;
+  height: 181.54px;
+  margin-left: 148px;
+  padding-bottom: 92px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 544px) {
+}
