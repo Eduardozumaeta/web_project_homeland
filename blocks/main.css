@@ -59,7 +59,47 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .main__topic {
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+    padding-bottom: 50px;
+  }
+
+  .main__text {
+    max-width: 720px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .main__author {
+    max-width: 720px;
+  }
+
+  .main__text-description {
+    max-width: 720px;
+    padding-bottom: 88px;
+  }
 }
 
 @media screen and (max-width: 544px) {
+  .main__topic {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 40px;
+  }
+  .main__text {
+    max-width: 288px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .main__author {
+    max-width: 288px;
+  }
+  .main__text-description {
+    max-width: 288px;
+    padding-bottom: 64px;
+  }
 }

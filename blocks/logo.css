@@ -1,6 +1,8 @@
 .logo {
   margin: 0;
   margin-top: 34px;
+  max-width: 254.84px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +11,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .logo {
+    max-width: 254px;
+  }
 }
 
 @media screen and (max-width: 544px) {
+  .logo {
+    max-width: 188px;
+  }
 }
