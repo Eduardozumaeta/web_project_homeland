@@ -1,8 +1,10 @@
 # Nombre del Proyecto
 
-Homeland
+De patria a patria
 
 # Descripcion del proyecto y Funcionalidad
+
+Es una obra de arte visual dedicada a la ciudad natal de los estudiantes de tripleten
 
 # Descripcion de las Tecnologias y tecnicas utilizadas
 
