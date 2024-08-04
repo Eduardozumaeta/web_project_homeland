@@ -5,3 +5,16 @@
 @import url("../blocks/lead.css");
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.photo-grid__item {
+  max-width: 100%;
+  max-width: 284px;
+  max-height: 213px;
+}
