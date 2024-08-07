@@ -10,7 +10,7 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
-.photo-grid__image {
+.photo-grid__item {
   width: 284px;
   height: 213px;
 }
@@ -26,7 +26,7 @@
     margin-bottom: 0px;
   }
 
-  .photo-grid__image {
+  .photo-grid__item {
     display: grid;
     max-width: 352px;
     width: 100%;
@@ -44,7 +44,7 @@
     grid-template-rows: repeat(8, auto);
   }
 
-  .photo-grid__image {
+  .photo-grid__item {
     max-width: 280px;
     width: 100%;
     height: auto;
