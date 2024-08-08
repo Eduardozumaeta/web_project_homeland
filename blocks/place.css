@@ -19,12 +19,12 @@
   margin: auto;
   column-gap: 40px;
   height: 100%;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .place__title {
   grid-area: title;
   max-width: 460px;
-  font-family: "Inter-Black";
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -45,7 +45,6 @@
   height: auto;
   grid-area: artist;
   margin-top: 110px;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 14.52px;
@@ -53,7 +52,6 @@
 .place__website-heading {
   width: 100%;
   height: auto;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 14.52px;
@@ -61,7 +59,6 @@
 .place__website-artist {
   margin: 0;
   height: auto;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -71,11 +68,15 @@
   grid-area: description;
   margin-top: 0;
   width: 100%;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 29.34px;
   text-align: left;
+}
+
+.place__paragraphs {
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .place__button {
@@ -86,6 +87,9 @@
   border-style: none;
   border-radius: 4px;
   height: 48px;
+  margin-top: 48px;
+  color: white;
+  font-weight: 600;
 }
 .place__button:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
@@ -115,7 +119,6 @@
   }
   .place__title {
     grid-area: title;
-    font-family: "Inter";
     font-size: 42px;
     line-height: 46px;
     margin: auto;
@@ -153,7 +156,6 @@
 
   .place__paragraph {
     grid-area: description;
-    font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
     line-height: 26.08px;
